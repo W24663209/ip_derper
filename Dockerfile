@@ -6,7 +6,7 @@ EXPOSE 443/tcp
 EXPOSE 3478/udp
 
 # 设置环境变量
-ENV DERP_HOSTNAME=derp.aidenleepay.online
+ENV DERP_HOSTNAME=ipderper-production.up.railway.app
 ENV DERP_CERTMODE=letsencrypt
 
 # 容器启动命令
